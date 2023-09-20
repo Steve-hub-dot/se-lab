@@ -1,4 +1,4 @@
-# SE Spaceship
+# SE 
 
 This is a sample application for the [Software Engineering](http://www.mit.bme.hu/oktatas/targyak/vimiab04) course at BME MIT.
 
@@ -21,6 +21,7 @@ To compile and run tests also execute:
 ```
 mvn test
 ```
+Let's add something to it.
 
 (That will be enough to know for the current exercises. If you are more interested, see [this](https://github.com/ftsrg-edu/swsv-labs/wiki/0b-Build-tools) short guide about Maven.)
 
@@ -35,6 +36,3 @@ The project represents an alpha version of a spaceship.
 - Currently two firing modes (`FiringMode`) are supported: firing only one or all instances of a given weapon type.
 - Lasers are not yet implemented, but the code for torpedo stores are ready (`TorpedoStore`).
 - For the GT4500 ship the rules for firing torpedoes can be found in the Javadoc comment of method `fireTorpedos`. They are already partially implemented.
-- There are currently two tests (`GT4500Test`), but be aware that they are not proper unit tests, as they do not isolate the dependencies of the tested class.
-
-The code can be built, but due to missing features one of the tests fails. The first execercise will be to fix this.
