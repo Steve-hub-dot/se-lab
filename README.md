@@ -1,4 +1,4 @@
-# SE 
+# SE ceship
 
 This is a sample application for the [Software Engineering](http://www.mit.bme.hu/oktatas/targyak/vimiab04) course at BME MIT.
 
@@ -36,3 +36,5 @@ The project represents an alpha version of a spaceship.
 - Currently two firing modes (`FiringMode`) are supported: firing only one or all instances of a given weapon type.
 - Lasers are not yet implemented, but the code for torpedo stores are ready (`TorpedoStore`).
 - For the GT4500 ship the rules for firing torpedoes can be found in the Javadoc comment of method `fireTorpedos`. They are already partially implemented.
+
+The code can be built, but due to missing features one of the tests fails. The first execercise will be to fix this.
